@@ -1,0 +1,44 @@
+# Виртуальные окружения и Poetry
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+poetry.lock
+.cache/
+.pytest_cache/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code (на всякий случай)
+.vscode/
+.DS_Store
+
+# Артефакты сборки и дистрибуции
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Локальные конфиги и секреты
+*.local
+.secrets/
+secrets.json
+config/local.py
+
+# Временные файлы и логи
+*.log
+tmp/
+temp/
+.tmp/
+
+# Тесты и покрытие (если не хочешь хранить в репозитории)
+htmlcov/
+.coverage
+coverage.xml
