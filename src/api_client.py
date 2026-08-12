@@ -59,7 +59,7 @@ class NominatimClient(BaseClient):
         Инициализирует клиент с пользовательским агентом.
 
         Args:
-            user_agent: Значение заголовка User-Agent для соблюдения правил API.
+            user_agent: Заголовок User-Agent для соблюдения правил API.
         """
         self._session = requests.Session()
         self._session.headers.update({"User-Agent": user_agent})

@@ -71,7 +71,7 @@ class AirplaneAdapter:
     @classmethod
     def from_opensky_states(cls, states: List[List[Any]]) -> List[Aeroplane]:
         """
-        Преобразует список строк состояний самолётов (OpenSky) в список объектов Aeroplane.
+        Cписок строк состояний самолётов (OpenSky) в список объектов Aeroplane.
         Некорректные строки пропускаются без прерывания обработки.
 
         Args:
